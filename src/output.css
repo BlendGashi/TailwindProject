@@ -588,8 +588,24 @@ video {
   }
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .text-purple-800 {
