@@ -28,29 +28,29 @@
     </section>
     
     <section class="">
-            <div class="flex justify-between align-baseline my-8 w-5/6">
+            <div class="flex justify-between align-baseline items-center w-5/6 mx-auto ">
                     <div class="logo">
                         <img src="logo.jpg" class="h-20 w-20" alt="Logo"><br>
                         <img class="hidden" src="./menu.png" alt="Menu Toggler Icon" class="menu-toggler-icon" />
                         <input class="hidden" type="checkbox" id="menu-toggler" />
                     </div>
-                <div class="flex my-5 align-baseline">
+                <div class="flex my-5 align-middle">
                     <i class="fa-solid fa-phone text-orange-600"></i> &nbsp;
                     <h3>+383-44-111-222</h3> &nbsp; &nbsp; &nbsp;
                     <i class="fa-solid fa-envelope text-orange-600" ></i> &nbsp;
                     <h3>info@exmaple.com</h3> &nbsp; &nbsp;
                     <input class="h-8 border outline-slate-700 rounded-lg px-2" type="text" id="fname" name="fname" placeholder="Search..."><br> &nbsp;
-                    <i class="fa-solid fa-magnifying-glass"></i> 
+                    <i class="fa-solid fa-magnifying-glass text-orange-600"></i> 
                 </div>
             </div>
     </section>
     
-    <header id="">
-        <div class="">
+    <header class="bg-orange-100 py-7 w-5/6 mx-auto px-8">
+        <div class="flex justify-between items-center mx-auto ">
                 <nav>
-                    <ul>
-                        <li><a href="#header">HOME<i class="fa-solid fa-angle-down"></i></a>
-                        <ul class="">
+                    <ul class="flex justify-between items-center ">
+                        <li class="ms-2"><a href="#header">HOME<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="hidden">
                             <li><a href="#">HOME ONE</a></li>
                             <li><a href="#">HOME TWO</a></li>
                             <li><a href="#">HOME THREE</a></li>
@@ -58,36 +58,35 @@
                             <li><a href="#">HEADER</a></li>
                         </ul>
                         </li> 
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#PAGES">PAGES</a>
-                        </li>
-                        <li><a href="#">BLOG<i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="submenu">
+                        <li class="ms-10"><a href="#">ABOUT</a></li>
+                        <li class="ms-10"><a href="#">PAGES</a></li>
+                        <li class="ms-10"><a href="#">BLOG<i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="hidden">
                                 <li><a href="#">BLOG GRID</a></li>
                                 <li><a href="#">BLOG STANDART</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">CONTACT US</a></li>                 
+                        <li class="ms-10"><a href="#">CONTACT US</a></li>                 
                     </ul>
                 </nav>
-                <div class="user">
-                    <i class="fa-solid fa-user"></i>
+                <div class="flex">
+                    <i class="fa-solid fa-user text-orange-600 px-2"></i>
                     <a href="#">My Account</a>
                 </div>
             </div> 
     </header>
     
 
-    <section id="rezervimi">
-        <div class="container">
+    <section class="h-20 w-4/6 mx-auto py-6">
+        <div class="flex justify-between">
             
-                <div class="searching">
-                <i class="fa-solid fa-magnifying-glass"></i> 
+                <div class="">
+                <i class="fa-solid fa-magnifying-glass text-orange-600"></i> 
                 </div>
             
             <div class="country">
             <label for="country">Choose a country</label>
-            <select id="country" name="country" >
+            <select class="border rounded-md border-orange-600 px-1 outline-orange-600" id="country" name="country" >
             <option value="kosovo">Kosovo</option>
             <option value="albania">Albania</option>
             <option value="bansko">Bansko</option>
@@ -96,8 +95,8 @@
             </div>
         
             <div class="personat">
-                <i class="fa-solid fa-user"></i>
-                <select id="person" name="person" >
+                <i class="fa-solid fa-user text-orange-600 px-1"></i>
+                <select class="border rounded-md border-orange-600" id="person" name="person" >
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -106,30 +105,30 @@
             </div>
     
             <div class="data">
-                <i class="fa-regular fa-calendar-days"></i>
-                <input type="datetime-local">
+                <i class="fa-regular fa-calendar-days text-orange-600"></i>
+                <input class="border rounded-md border-orange-600" type="datetime-local">
             </div>
     
             <div class="kerko">
-                <button type="button" class="button">Search</button>
+                <button  type="button" class="button border px-4 rounded-md text-orange-600 bg-orange-100 border-orange-600">Search</button>
             </div>
         </div>
     </section>
     
     
-    <section id="aboutus">
-        <div class="container">
-        <div class="aboutus">
-                <div class="center">
+    <section >
+        <div class="flex ">
+        <div class="">
+                <div class="">
                 <h3>About us</h3>
                 </div>
         <h1>Planning a trip should be very exciting adventure</h1>
         <p>We're dedicated to offering exceptional value for your travel investment. Our relationships <br>with trusted travel partners</p>
         
-        <div class="international">
-    <br><br>
+        <div class="">
+        <br><br>
     
-        <div class="foto1">
+        <div class="">
         <img src="world.png">   &nbsp;&nbsp;&nbsp;&nbsp;
         <div>
         <h2>International Tours</h2>
@@ -138,7 +137,7 @@
         </div>
         &nbsp;&nbsp;
             
-        <div class="foto1">
+        <div class="">
         <img src="multiple.png">&nbsp;&nbsp;&nbsp;&nbsp;
         <div>
         <h2>Multiple Options to Choose</h2>
@@ -149,11 +148,11 @@
         </div>
         </div>
     
-        <div class="vendet">
-        <img src="about-1.jpg">
-        <img src="about-2.jpg">
-        <img src="about-3.jpg">
-        <img src="america1.jpg" alt="">
+        <div class="grid grid-cols-2 justify-between mx-auto items-center ">
+        <img class="w- h-24" hight="200px" width="200px" src="about-1.jpg">
+        <img class="w-24 h-24" hight="200px" width="200px" src="about-2.jpg">
+        <img class="w-24 h-24" hight="200px" width="200px" src="about-3.jpg">
+        <img class="" hight="200px" width="200px" src="america1.jpg">
         </div>
     </div>
 </section>
