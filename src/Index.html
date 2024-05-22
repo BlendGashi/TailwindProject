@@ -49,24 +49,24 @@
         <div class="flex justify-between items-center mx-auto ">
                 <nav>
                     <ul class="flex justify-between items-center ">
-                        <li class="ms-2"><a href="#header">HOME<i class="fa-solid fa-angle-down"></i></a>
-                        <ul class="hidden">
-                            <li><a href="#">HOME ONE</a></li>
-                            <li><a href="#">HOME TWO</a></li>
-                            <li><a href="#">HOME THREE</a></li>
-                            <li><a href="#">ONEPAGE HOME</a></li>
-                            <li><a href="#">HEADER</a></li>
+                        <li class="ms-2 group "><a href="#header">HOME<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="hidden group-hover:block">
+                            <li class="hover:text-orange-600 "><a  href="#">HOME ONE</a></li>
+                            <li class="hover:text-orange-600"><a href="#">HOME TWO</a></li>
+                            <li class="hover:text-orange-600"><a href="#">HOME THREE</a></li>
+                            <li class="hover:text-orange-600"><a href="#">ONEPAGE HOME</a></li>
+                            <li class="hover:text-orange-600"><a href="#">HEADER</a></li>
                         </ul>
                         </li> 
-                        <li class="ms-10"><a href="#">ABOUT</a></li>
-                        <li class="ms-10"><a href="#">PAGES</a></li>
-                        <li class="ms-10"><a href="#">BLOG<i class="fa-solid fa-angle-down"></i></a>
-                            <ul class="hidden">
-                                <li><a href="#">BLOG GRID</a></li>
-                                <li><a href="#">BLOG STANDART</a></li>
+                        <li class="ms-10 hover:text-orange-600"><a href="#">ABOUT</a></li>
+                        <li class="ms-10 hover:text-orange-600"><a href="#">PAGES</a></li>
+                        <li class="ms-10 group "><a href="#">BLOG<i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="hidden group-hover:block">
+                                <li class="hover:text-orange-600"><a href="#">BLOG GRID</a></li>
+                                <li class="hover:text-orange-600"><a href="#">BLOG STANDART</a></li>
                             </ul>
                         </li>
-                        <li class="ms-10"><a href="#">CONTACT US</a></li>                 
+                        <li class="ms-10 hover:text-orange-600"><a href="#">CONTACT US</a></li>                 
                     </ul>
                 </nav>
                 <div class="flex">
@@ -129,7 +129,7 @@
         <br><br>
     
         <div class="flex">
-        <img src="world.png" class="rounded-full">   &nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="world.png" class="rounded-full ">   &nbsp;&nbsp;&nbsp;&nbsp;
         <div>
         <h2 class="font-semibold text-base">International Tours</h2>
         <p>Our team of travel professional brings a wealth of knowledge <br>and expertise to the table.</p>
@@ -148,7 +148,7 @@
         </div>
         </div>
     
-        <div class="grid grid-cols-2 justify-between mx-auto items-center ">
+        <div class="xl:grid xl:grid-cols-2 justify-between mx-auto items-center hidden xl:block ">
         <img class="w-52 h-52 m-3" src="about-1.jpg">
         <img class="w-52 h-52 m-3" src="about-2.jpg">
         <img class="w-52 h-52 m-3" src="about-3.jpg">
@@ -192,7 +192,7 @@
     <section class="bg-blue-50">
         <div class="container mx-auto">
             <div class="">
-        <h3 class="text-3xl mx-auto text-center font-bold text-yellow-500">Tour Packages</h3>
+        <h3 class="text-3xl font-bold text-yellow-500 mx-auto text-center">Tour Packages</h3>
             <div class="">
                 <h1 class="text-4xl font-bold text-slate-800 text-center">Featured Tours</h1>
             </div>
@@ -208,177 +208,185 @@
                 </ul>
                 </div>
             </div>
-        <div class="grid grid-cols-4 container m-5">
-                <div class="">
-                    <img src="india.jpg" class="w-64 h-64 rounded-lg object-cover  items-center ">
-                    <p>INDIA</p>
+            <!-- <div class="grid xl:grid-cols-4 lg:grid-cols-3 lg:w-5/6 lg:mx-auto sm:grid-cols-2 container pb-8 mb-8 items-center "> -->
+        <div class="grid xl:grid-cols-4 lg:grid-cols-3 lg:w-5/6 lg:mx-auto grid-cols-1 container pb-8 mb-8 items-center ">
+            
+                <div class="mb-8">
+                    <img src="india.jpg" class="w-64 h-64 rounded-lg">
+                    <p class="text-xl font-extrabold  text-slate-800">INDIA</p>
                     <h5>Wildness of Amazon</h5>
                     <h5>From - <span>$160.00</span></h5>
-                    <div class="flex px-3"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                    <div class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right relative"></i></div>
+                    <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                    <div class="flex hover:text-orange-600 hover:cursor-pointer"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right relative"></i></div>
                 </div>
     
-            <div class="m-7">
+            <div class="mb-8">
                 <img src="australia.jpg" class="w-64 h-64 rounded-lg">
-                <p>AUSTRALIA</p>
+                <p class="text-xl font-extrabold  text-slate-800">AUSTRALIA</p>
                 <h5>Ocean on the Maldive</h5>
                 <h5>From - <span>$144.00</span></h5>
-                <div class="flex"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                <class class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
+                <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                <class class="flex hover:text-orange-600 hover:cursor-pointer"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
             </div>
     
-            <div class="">
+            <div class="mb-8">
                 <img src="egypt.jpg" class="w-64 h-64 rounded-lg">
-                <p>EGYPT</p>
+                <p class="text-xl font-extrabold  text-slate-800">EGYPT</p>
                 <h5>Wildness of California</h5>
                 <h5>From - <span>$180.00</span></h5>
-                <div class="flex"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                <class class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
+                <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                <class class="flex hover:text-orange-600 hover:cursor-pointer"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
             </div>
     
-            <div class="">
+            <div class="mb-8">
                 <img src="india1.jpg" class="w-64 h-64 rounded-lg">
-                <p>INDIA</p>
+                <p class="text-xl font-extrabold  text-slate-800">INDIA</p>
                 <h5>Ocean on the Maldives</h5>
                 <h5>From - <span>$170.00</span></h5>
-                <div class="flex"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                <class class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
+                <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                <class class="flex hover:text-orange-600 hover:cursor-pointer"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
             </div>
     
             <div class="">
                 <img src="newyork.jpg" class="w-64 h-64 rounded-lg">
-                <p>INDIA</p>
+                <p class="text-xl font-extrabold  text-slate-800">INDIA</p>
                 <h5>History of The Emporer</h5>
                 <h5>From - <span>$130.00</span></h5>
-                <div class="flex"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                <class class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
+                <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                <class class="flex hover:text-orange-600 hover:cursor-pointer"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
             </div>
     
             <div class="">
                 <img src="america1.jpg" class="w-64 h-64 rounded-lg">
-                <p>AMERICA</p>
+                <p class="text-xl font-extrabold  text-slate-800">AMERICA</p>
                 <h5>The Hills and Mountains</h5>
                 <h5>From - <span>$140.00</span></h5>
-                <div class="flex"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                <class class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
+                <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                <class class="flex hover:text-orange-600 hover:cursor-pointer"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
             </div>
     
             <div class="">
                 <img src="china.jpg" class="w-64 h-64 rounded-lg">
-                <p>CHINA</p>
+                <p class="text-xl font-extrabold  text-slate-800">CHINA</p>
                 <h5>The old Empire of China</h5>
                 <h5>From - <span>$140.00</span></h5>
-                <div class="flex"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                <class class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
+                <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                <class class="flex hover:text-orange-600 hover:cursor-pointer"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
             </div>
     
             <div class="">
                 <img src="china1.jpg" class="w-64 h-64 rounded-lg">
-                <p>CHINA</p>
+                <p class="text-xl font-extrabold  text-slate-800">CHINA</p>
                 <h5>History of the Mughals</h5>
                 <h5>From - <span>$130.00</span></h5>
-                <div class="flex"><i class="fa-regular fa-clock"></i><h6>03 Days</h6><i class="fa-solid fa-person"></i><h6>20 People</h6></div>
-                <class class="flex"><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
+                <div class="flex"><i class="fa-regular fa-clock text-orange-600"></i><h6>03 Days</h6><i class="fa-solid fa-person text-orange-600"></i><h6>20 People</h6></div>
+                <class class="flex hover:text-orange-600 hover:cursor-pointer "><h3><b>Explore more</b></h3><i class="fa-solid fa-arrow-right"></i></class>
             </div>
         </div>
         
     </section>
     
-    <section class="top">
-        <div class="container">
-            <div class="center">
-                <h3>Top Places</h3>
-                <h2>Top Visited Places</h2>
+    <section class="container mx-auto">
+        <div class="">
+            <div class="mb-8">
+                <h3 class="text-3xl font-bold text-yellow-500 mx-auto text-center">Top Places</h3>
+                <h2 class="text-4xl font-bold text-slate-800 text-center">Top Visited Places</h2>
             </div>
-            <div class="vendett">
-        <div class="america">
-            <img src="china.jpg">
-            <h3>America</h3>
+
+             <!-- grid xl:grid-cols-4 lg:grid-cols-3 lg:w-5/6 lg:mx-auto container -->
+            <div class="grid xl:grid-cols-3 lg:grid-cols-2 lg:container lg:mx-auto  container"> 
+        <div class="pb-5">
+            <img class="w-96 h-72 rounded-lg" src="china.jpg">
+            <h3 class="font-mono text-2xl text-yellow-500">America</h3>
         </div>
     
-        <div class="america">
-            <img src="india.jpg">
-            <h3>Italy</h3>
+        <div class="pb-5">
+            <img class="w-96 h-72 rounded-lg" src="india.jpg">
+            <h3 class="font-mono text-2xl text-yellow-500">Italy</h3>
         </div>
     
-        <div class="america">
-            <img src="china1.jpg">
-            <h3>India</h3>
+        <div class="pb-5">
+            <img class="w-96 h-72 rounded-lg" src="china1.jpg">
+            <h3 class="font-mono text-2xl text-yellow-500">India</h3>
         </div>
     
-        <div class="america">
-            <img src="egypt.jpg">
-            <h3>Egypt</h3>
+        <div class="pb-5">
+            <img class="w-96 h-72 rounded-lg" src="egypt.jpg">
+            <h3 class="font-mono text-2xl text-yellow-500">Egypt</h3>
         </div>
     
-        <div class="america">
-            <img src="newyork.jpg">
-            <h3>Newyork</h3>
-        </div>
+        <div class="pb-5">
+            <img class="w-96 h-72 rounded-lg" src="newyork.jpg">
+            <h3 class="font-mono text-2xl text-yellow-500">Newyork</h3>
+        </div> 
     
-        <div class="america">
-            <img src="maldive.jpg">
-            <h3>Maldive</h3>
+        <div class="pb-5">
+            <img class="w-96 h-72 rounded-lg" src="maldive.jpg">
+            <h3 class="font-mono text-2xl text-yellow-500">Maldive</h3>
         </div>
             </div>
-    </div>
-    </section>
+            </div>
+            
+</section>
     
-    <section class="blog">
-        <div class="container">
-            <div class="center">
-            <h3>Our Blog</h3><br>
-            <h2>Get Lastest News Update</h2><br>
+<section class="bg-blue-50">
+        <div class="container mx-auto">
+            <div class="">
+            <h3 class="text-3xl font-bold text-yellow-500 mx-auto text-center">Our Blog</h3><br>
+            <h2 class="text-4xl font-bold text-slate-800 text-center">Get Lastest News Update</h2><br>
         </div>
-            <div class="blogee">
-        <div class="blog1">
-            <img src="blog1.jpg">
-            <div class="travelblog"><button class="button" type="button" >Travel Blog</button>&nbsp;
-            <i class="fa-regular fa-calendar-days"></i>&nbsp;
-            <p>December 5, 2023</p></div>
-            <h4>Find who are giving service Booking travel during Corona</h4>
-        </div>
-        <div class="blog2">
-            <img src="blog2.jpg">
-            <div class="travelblog"><button class="button" type="button" >Travel Blog</button>&nbsp;
-            <i class="fa-regular fa-calendar-days"></i>&nbsp;
-            <p>December 5, 2023</p></div>
-            <h4>Exploring Bangladeshs rich history: Eliza Binte Elahi</h4>
-        </div>
-        <div class="blog3">
-            <img src="blog3.jpg">
-            <div class="travelblog"><button class="button" type="button" >Travel Blog</button>&nbsp;
-            <i class="fa-regular fa-calendar-days"></i>&nbsp;
-            <p>December 5, 2023</p></div>
-            <h4>7 movies that make you want to pack your bags and travel</h4>
+
+       
+            <div class="grid xl:grid-cols-3 lg:grid-cols-2 lg:mx-auto container">
+        <div class="">
+            <img class="rounded-xl" src="blog1.jpg">
+            <div class="flex py-4"><button class="border border-orange-600 text-orange-600 bg-orange-100 px-3 rounded-xl" type="button" >Travel Blog</button>&nbsp;
+            <i class="fa-regular fa-calendar-days text-orange-600"></i>&nbsp;
+            <p class="font-mono">July 17, 2024</p>
         </div>
     </div>
+            
+        <div class="">
+            <img class="rounded-xl" src="blog2.jpg">
+            <div class="flex py-4"><button class="border border-orange-600 text-orange-600 bg-orange-100 px-3 rounded-xl" type="button" >Travel Blog</button>&nbsp;
+            <i class="fa-regular fa-calendar-days text-orange-600"></i>&nbsp;
+            <p class="font-mono">July 17, 2024</p>
+        </div>
     </div>
-    </section>
+
+        <div class="">
+            <img class="rounded-xl" src="blog3.jpg">
+            <div class="flex py-4"><button class="border border-orange-600 text-orange-600 bg-orange-100 px-3 rounded-xl" type="button" >Travel Blog</button>&nbsp;
+            <i class="fa-regular fa-calendar-days text-orange-600"></i>&nbsp;
+            <p class="font-mono">July 17, 2024</p></div>
+        </div>
+    </div>
+
+</section>
     
-    <footer>
-        <div class="container">
-         <div class="foot">
-            <img src="logo.jpg" width="200px" height="200px" alt="Logo">
-            <p>A wonderful serenity has taken possession <br> of my entire soul, like these sweet morning<br> of spring which</p><br><br>
-            <h4>info@support.com</h4>
-            <h4>(+55)-123-456-7890</h4>
+    <footer class="bg-slate-900 pb-12">
+        <div class="container mx-auto pt-12 flex justify-around">
+         <div class="">
+            <img class="w-24 h-24 rounded-xl" src="logo.jpg" alt="Logo">
+            <p class="text-white">A wonderful serenity has taken possession <br> of my entire soul, like these sweet morning<br> of spring which</p><br><br>
+            <h4 class="font-semibold text-white" >info@support.com</h4>
+            <h4 class="font-semibold text-white">(+55)-123-456-7890</h4>
          </div>
         
-        <div class="col">
-            <h3>About</h3>
+        <div class="">
+            <h3 class="text-white">About</h3>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Faq's</a></li>
-                <li><a href="#">Testimonial</a></li>
+                <li class="text-white"><a href="#">About</a></li>
+                <li class="text-white"><a href="#">Blog</a></li>
+                <li class="text-white"><a href="#">Contact</a></li>
+                <li class="text-white"><a href="#">Faq's</a></li>
+                <li class="text-white"><a href="#">Testimonial</a></li>
             </ul>
         </div> 
     
-        <div class="col">
+        <div class="text-white">
             <h3>Top Tours</h3>
-            <ul>
+            <ul >
                 <li><a href="#">Destinations</a></li>
                 <li><a href="#">Tour List Two</a></li>
                 <li><a href="#">Tour List Three</a></li>
@@ -387,19 +395,19 @@
             </ul>
         </div> 
         
-        <div class="projects">
-            <img src="skijimi.jpeg" alt="">
-            <img src="india.jpg" alt="">
-            <img src="america1.jpg" alt="">
-            <img src="china.jpg" alt="">
-            <img src="blog1.jpg" alt="">
-            <img src="blog2.jpg" alt="">
+        <div class="gap-1 grid grid-cols-2" >
+            <img class="w-24 h-24 rounded-lg" src="skijimi.jpeg" alt="">
+            <img class="w-24 h-24 rounded-lg" src="india.jpg" alt="">
+            <img class="w-24 h-24 rounded-lg" src="america1.jpg" alt="">
+            <img class="w-24 h-24 rounded-lg" src="china.jpg" alt="">
+            <img class="w-24 h-24 rounded-lg" src="blog1.jpg" alt="">
+            <img class="w-24 h-24 rounded-lg" src="blog2.jpg" alt="">
         </div>
         </div>
     
-        <div class="social">
-        <div class="copyright">
-            <h4>Copyright © 2024 Travic, Inc. All Rights Reserved</h4>
+        <div class="flex justify-around mx-auto pt-12">
+        <div class="">
+            <h4 class="text-white">Copyright © 2024 Travic, Inc. All Rights Reserved</h4>
         </div>
         <div class="socal">
             <a href="https://www.facebook.com/"> <i class="devicon-facebook-plain colored"></i></a>
